@@ -21,7 +21,7 @@
     }
     .object-container-one p{
       font-size:80px;
-      padding-top:40px;
+      /* padding-top:40px; */
     }
     .object-container-two{
       height:50vh;
@@ -50,7 +50,7 @@
 <body>
   <div class="container">
     <div class="object-container-one">
-      <p>Good Morning.</p>
+      <p class="gm">Good Morning.</p>
     </div>
     <div class="object-container-two">
       <i class="fas fa-hand-peace" id="sidebar"></i>
@@ -85,6 +85,7 @@
   <script>
     $("#sidebar").stick_in_parent();
     $("#bottles").stick_in_parent();
+    $(".gm").stick_in_parent();
   </script>
 </body>
 </html>
